@@ -8,7 +8,10 @@ public:
     Node* left;
     Node* right;
 
-    Node(T value) : data(value), left(nullptr), right(nullptr){ } // TODO: Implement constructor here
+    // TODO: Implement constructor here
+    Node() : left(nullptr), right(nullptr) {}
+    Node(T value) : data(value), left(nullptr), right(nullptr) {}
+    Node(T value, Node* l, Node* r) : data(value), left(l), right(r) {}
 };
 
 #endif // NODE_H
