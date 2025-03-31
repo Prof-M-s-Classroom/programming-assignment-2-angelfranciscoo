@@ -58,6 +58,8 @@ Example:
 
 Example:
 > One major debugging challenge that I faced was not being able to open my .txt file. I tried moving the location of the file from my desktop into the cLion folder, and even into the build folder and nothing was working. I then decided to use the entire file path instead of just the name of the file and that fixed the issue. However, I was getting errors parsing the file due to previous whitespace that I had inside. It was a lot of nitpicking but I finally perfected the .txt file and everything ultimately ran smoothly.
+> 
+> Update: I relocated my story.txt file to the cmake-build-debug directory which allowed me to use the file as intended without having to make the filename in main.cpp the absolute path!
 
 ---
 
