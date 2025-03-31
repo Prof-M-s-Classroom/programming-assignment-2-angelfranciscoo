@@ -22,12 +22,12 @@ Example:
 - **`GameDecisionTree.h`** → `Contains a templated GameDecisionTree<T> where T is the Story class. Has two methods (loadStoryFromFile and playGame) that load story data from a file as well as creates a decision tree, and traverses the decision tree depending on which path the user takes, respectively. `  
 - **`Node.h`** → `Contains a templated Node<T> class where T is the Story class. Creates nodes that have three variables (data, leftChild, rightChild). Has three total constructors, a default constructor, a constructor that only takes data as input, and a constructor that takes data, left, and right children as input.`  
 - **`Story.h`** → `Contains variables for each event in a decision tree (description, eventNumber, leftEventNumber, rightEventNumber. Also contains a default and parameterized constructor for the Story class.`  
-- **`StoryFile.txt`** → `The game loads story events from this file using the method loadStoryFromFile located in the GameDecisionTree.h file. This method opens the file, stores each line in a string vector, parses each line to separate information based on delimiter placement, and then uses that information to successfully create nodes. The node's left and right pointers are created based on the leftEventNumber and rightEventNumber variables.`  
+- **`story.txt`** → `The game loads story events from this file using the method loadStoryFromFile located in the GameDecisionTree.h file. This method opens the file, stores each line in a string vector, parses each line to separate information based on delimiter placement, and then uses that information to successfully create nodes. The node's left and right pointers are created based on the leftEventNumber and rightEventNumber variables.`  
 
 ---
 
 ## **3. Decision Tree Construction**
-(Explain how the decision tree is built from the `StoryFile.txt` file.)
+(Explain how the decision tree is built from the `story.txt` file.)
 
 - How are `Story` objects created from the text file? Story objects are created after the .txt file has been parsed and information separated by delimiters has been stored into their respective variables.
 - How are nodes linked based on left and right event numbers? Each node's left and right pointers are linked based on the event numbers provided in the .txt file. These links are very important as each event must have the exact left and right event numbers shown in the .txt file to maintain clarity and proper flow within the decision tree.
@@ -45,7 +45,7 @@ Example:
 ---
 
 ## **5. File Parsing & Data Loading**
-(Explain the process of reading `StoryFile.txt` and constructing the decision tree.)
+(Explain the process of reading `story.txt` and constructing the decision tree.)
 
 - How is the file read and parsed using a delimiter? The file is opened and read using an ifstream and is parsed using a delimiter through a stringstream.
 - How do you ensure nodes are properly linked? I spent a lot of time making sure my logic was correct for the node linking, trial and error was also helpful. By going down every possible path I was able to confirm that all my nodes had been linked correctly.
