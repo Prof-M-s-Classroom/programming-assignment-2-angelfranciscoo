@@ -3,10 +3,6 @@
 #include "GameDecisionTree.h"
 using namespace std;
 int main() {
-
-    cout << "Welcome to the RPG!" << endl << endl;
-    cout << "--" << endl << endl;
-
     GameDecisionTree<Story> myGame;
 
     string filename = "story.txt";     // Specify the input file

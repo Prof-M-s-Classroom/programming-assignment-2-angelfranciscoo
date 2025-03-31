@@ -104,7 +104,7 @@ public:
             cout << currNode->data.description << endl;
 
             if (currNode->left == nullptr && currNode->right == nullptr) {
-                cout << "Thanks for playing! Height: 7" << endl;
+                cout << "Thanks for playing!" << endl;
                 return;
             }
 

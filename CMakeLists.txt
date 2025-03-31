@@ -9,6 +9,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 include_directories(.)
 
 # Source files (only .cpp, no .h files)
-add_executable(game
+add_executable(CS210PA2
         Francisco_AngelRPG/main.cpp
         Francisco_AngelRPG/Story.cpp)
