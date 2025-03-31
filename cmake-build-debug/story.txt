@@ -1,6 +1,36 @@
-1|"You wake up in a forest clearing. There are two paths."|2|3
-2|"You follow the path to the left and encounter a river."|4|5
-3|"You go right and find an old cabin."|5|6
-4|"You swim across the river and find a treasure chest."|-1|-1
-5|"You find a hidden passageway that leads to a secret room."|7|-1
-6|"The cabin is empty. You find a trapdoor leading downwards."|-1|-1
+1|Welcome to Golf! Easy mode or Hard mode?|3|2
+2|Par 3, 150 yards to the pin. Choose your club: Sand Wedge OR Pitching Wedge?|4|5
+3|Par 5, 505 yards to the pin, fairway is slightly left. Play a fade or a draw?|6|7
+4|Great contact! You ended up slightly short of the green. Would you like to putt or chip?|8|9
+5|Nice shot! You have a 15 foot putt to sink. Do you think it breaks left or right?|10|11
+6|Should've played a draw! Now you are in the rough. You have 300 yards to the pin, what club would you like to play: 4 Iron OR 5 Iron?|12|13
+7|Beautiful draw, you are on the fairway with 235 yards to go! Choose your club: 4 Iron OR 3 Wood?|14|15
+8|Nice putt! Sink this 10 footer for par! Do you think it breaks left or right?|16|17
+9|Nice chip! You have a 7 foot putt coming up! Do you think it breaks left or right?|18|19
+10|Oh no! It seems to have broken right! Now you have a 7 foot putt. You should take your time on this one. Would you like a sip of Water or Gatorade?|20|21
+11|Oh no! It seems to have broken left! Now you have a 7 foot putt. You should take your time on this one. Would you like a sip of Water or Gatorade?|22|23
+12|You shanked it left! It was a good try. You have 150 yards to go. Choose your club: Pitching Wedge or 9 Iron?|24|25
+13|Darn! You shanked it right! You have 170 yards to go. Choose your club: 7 Iron or 8 Iron?|26|27
+14|That was a good choice! You are 85 yards from the pin. Would you like to chip with a 56-degree wedge or 60-degree wedge?|28|29
+15|Solid choice! You are 45 yards from the pin. Would you like to chip with a 56-degree wedge or 60-degree wedge?|30|31
+16|That's weird, it actually broke right! Now you have a 7 foot putt, does it look like it breaks left or right?|32|32
+17|That's weird, it actually broke left! Now you have a 7 foot putt, does it look like it breaks left or right?|32|32
+18|That's weird, it actually broke right! Now you have a 5 foot putt, does it look like it breaks left or right?|32|32
+19|That's weird, it actually broke left! Now you have a 5 foot putt, does it look like it breaks left or right?|32|32
+20|Great choice! I bet that was refreshing. Now...do you think this one is straight or does it break slightly right?|33|33
+21|Great choice! I bet that was refreshing. Now...do you think this one breaks slightly left or slightly right?|33|33
+22|Great choice! I bet that was refreshing. Now...do you think this one is straight or does it break slightly left?|33|33
+23|Great choice! I bet that was refreshing. Now...do you think this one breaks way left or way right?|33|33
+24|Nice shot! You just rolled onto the green! You have a 17 foot putt. Does it look like it breaks left or right?|34|34
+25|Great shot! You rolled a little past the pin. You have a 14 foot putt. Does it look like it breaks left or right?|34|34
+26|Good shot! You ended up just past the pin. You have a 15 foot putt. Does it look like it breaks left or right?|34|34
+27|Awesome shot! You were able to roll onto the green! You have an 18 foot putt. Does it look like it breaks left or right?|34|34
+28|What a shot! That looked really good! Do you want to walk over or drive the golf cart to your ball?|35|35
+29|My goodness! That looked perfect! Do you want to walk over or drive the golf cart to your ball?|35|35
+30|That was a beautiful chip shot! Do you want to walk over or drive the golf cart to your ball?|35|35
+31|That was pure! Do you want to walk over or drive the golf cart to your ball?|35|35
+32|Great putt! You had the correct read this time and scored a bogey! Would you like to play again? Yes (left), No (right)|1|36
+33|Great putt! You read the line perfectly and scored a par! Would you like to play again? Yes (left), No (right)|1|36
+34|Nice read! You just sinked that putt for birdie! Would you like to play again? Yes (left), No (right)|1|36
+35|OMG! Your ball rolled into the hole for EAGLE! Now that is a ball worthy of framing, don't lose it! Would you like to play again? Yes (left), No (right)|1|36
+36|--|-1|-1

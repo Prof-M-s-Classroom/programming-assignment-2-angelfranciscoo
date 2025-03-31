@@ -3,9 +3,13 @@
 #include "GameDecisionTree.h"
 using namespace std;
 int main() {
+
+    cout << "Welcome to the RPG!" << endl << endl;
+    cout << "--" << endl << endl;
+
     GameDecisionTree<Story> myGame;
 
-    string filename = "StoryFile.txt";     // Specify the input file
+    string filename = "story.txt";     // Specify the input file
     char delimiter = '|';     // '|' is the delimiter, change if needed
 
     // Load the story data from the file
