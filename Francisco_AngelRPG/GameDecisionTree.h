@@ -1,7 +1,6 @@
 #ifndef GAMEDECISIONTREE_H
 #define GAMEDECISIONTREE_H
 
-#include <unordered_map>
 #include <fstream>
 #include <sstream>
 #include <iostream>
@@ -38,6 +37,8 @@ public:
         while (getline(myFile, line)) {
             totalData.push_back(line);
         }
+
+        //close the file
         myFile.close();
 
         for (const string& lines : totalData) {
@@ -109,6 +110,7 @@ public:
 
             cout << "Left (-1) or Right (1)? " << endl;
 
+            //take into account user's desired path
             string choice;
             getline(cin, choice);
 
